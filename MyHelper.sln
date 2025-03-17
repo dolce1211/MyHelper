@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FAFCF402-F4D0-46B6-B04E-DC86D88EB713}"
+	ProjectSection(SolutionItems) = preProject
+		copilot-instructions.md = copilot-instructions.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHelper", "MyHelper\MyHelper.csproj", "{2259EDEC-EF75-CEA4-1A76-1C370BCD992D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHelper.Domain", "MyHelper.Domain\MyHelper.Domain.csproj", "{218840A1-4DC7-A3B7-9706-A1FCBEE9939C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyHelper.Infrastructure", "MyHelper.Infrastructure\MyHelper.Infrastructure.csproj", "{45DCCF2B-FC0E-4990-F70E-D9F9342888BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2259EDEC-EF75-CEA4-1A76-1C370BCD992D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2259EDEC-EF75-CEA4-1A76-1C370BCD992D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2259EDEC-EF75-CEA4-1A76-1C370BCD992D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2259EDEC-EF75-CEA4-1A76-1C370BCD992D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218840A1-4DC7-A3B7-9706-A1FCBEE9939C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218840A1-4DC7-A3B7-9706-A1FCBEE9939C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218840A1-4DC7-A3B7-9706-A1FCBEE9939C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218840A1-4DC7-A3B7-9706-A1FCBEE9939C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DCCF2B-FC0E-4990-F70E-D9F9342888BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DCCF2B-FC0E-4990-F70E-D9F9342888BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DCCF2B-FC0E-4990-F70E-D9F9342888BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DCCF2B-FC0E-4990-F70E-D9F9342888BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8F25C66-2E54-47FC-88F3-D1A853832D4E}
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
